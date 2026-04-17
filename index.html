@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RICARDO ROBLES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Alegreya+SC:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/60.png" type="image/png">
+    <!--OPENGRAPH-->
+    <meta property="og:title" content="¡Estás invitado a mi cumpleaños! - Ricardo" />
+    <meta property="og:description" content="Te espero el 16 de mayo para celebrar mis 60 años. ¡No faltes!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mis60.webmanka.com" /> <meta property="og:image" content="https://mis60.webmanka.com/img/portada.png" /> <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+</head>
+<body class="container text-white background-body">
+
+    <div class="container my-5 shadow-lg p-0 main-invite-container">
+        <div id="stars-overlay" class="stars-overlay"></div>
+        <div class="stars-container">
+            <img src="img/fuegos_artificiales.gif" class="firework fw-left" alt="">
+            <img src="img/fuegos_artificiales.gif" class="firework fw-right" alt="">
+        </div>
+
+        <header class="text-center p-4">
+            <h1 class="font-vibes invitation-title">Estás invitado a</h1>
+            <h2 class="font-playfair birthday-heading text-uppercase mt-2">Mi Cumpleaños</h2>
+        </header>
+
+        <section class="celebration-center text-center p-3">
+            <div class="balloon-champagne-wrapper d-inline-block position-relative">
+                <img src="img/60.png" alt="60" class="img-fluid balloon-60" style="width: 250px;">
+                <img src="img/copa.png" alt="Copa" class="champagne-glass position-absolute">
+            </div>
+        </section>
+
+        <section class="event-details text-center p-4">
+            <h3 class="font-playfair date-large">16 / 05 / 2026</h3>
+            <p class="font-playfair venue-name mt-3">El Establo 1, Los Alisos Jujuy</p>
+            <p class="font-playfair event-time">Desde las 12 a 20 horas</p>
+            
+            <h1 class="font-vibes name-callout mt-4">Ricardo</h1>
+        </section>
+
+        <img src="img/globos.png" class="side-balloons balloons-left" alt="Globos izquierda">
+        <img src="img/globos.png" class="side-balloons balloons-right" alt="Globos derecha">
+
+        <footer class="p-4 text-center">
+            <div class="d-grid gap-3 col-10 mx-auto">
+                <a href="https://www.google.com/maps/place/EL+ESTABLO+-+Casa+de+Campo+Vacacional+-+Salon+de+eventos,+Quincho+y+Pileta+-+Los+Alisos/@-24.2677822,-65.3061952,16.75z/data=!4m10!1m2!2m1!1sEl+Establo+1,+Los+Alisos+Jujuy!3m6!1s0x941b09bfb229a3d7:0x75eaddbfb1f36187!8m2!3d-24.2682258!4d-65.3021869!15sCh5FbCBFc3RhYmxvIDEsIExvcyBBbGlzb3MgSnVqdXlaHyIdZWwgZXN0YWJsbyAxIGxvcyBhbGlzb3MganVqdXmSAQ1jb3VudHJ5X2hvdXNlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJsYUhGbVdHcDNSUkFC4AEA-gEFCPsBEEc!16s%2Fg%2F11h5_t5m17?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-primary-custom btn-lg w-100 d-flex align-items-center justify-content-center" target="_blank">
+                    <i class="bi bi-geo-alt-fill me-2 fs-4"></i>
+                    <span>VER UBICACIÓN</span>
+                </a>
+                
+                <a href="formulario.html" class="btn btn-primary-custom btn-lg w-100 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-calendar-check-fill me-2 fs-4"></i>
+                    <span>CONFIRMAR ASISTENCIA</span>
+                </a>
+            </div>
+            
+            <small class="text-secondary mt-3 d-block music-indicator">
+                <i class="bi bi-music-note-beamed"></i> Toca para escuchar música
+            </small>
+        </footer>
+    </div>
+
+    <audio id="background-audio" loop>
+        <source src="audio/sonido.MP3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
